@@ -1,3 +1,4 @@
+import style from "./sass/style.module.scss"
 function Home() {
     return(
         <div>

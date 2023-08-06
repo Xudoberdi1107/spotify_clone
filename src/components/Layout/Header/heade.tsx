@@ -1,6 +1,9 @@
+import style from "./sass/style.module.scss"
+
+
 function Header() {
     return(
-        <div>
+        <div className={style.header}>
             header
         </div>
     )

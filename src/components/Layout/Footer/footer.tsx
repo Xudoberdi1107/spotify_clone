@@ -1,6 +1,8 @@
+import style from "./sass/style.module.scss"
+
 function Footer() {
     return(
-        <div>
+        <div className={style.footer}>
             navbar
         </div>
     )

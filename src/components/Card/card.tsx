@@ -1,4 +1,4 @@
-import style from "./sass/style.module.scss"
+import style from "@/components/Card/sass/style.module.scss"
 
 function Card() {
     return(

@@ -1,0 +1,17 @@
+.sidebar_section_link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    img{
+        width: 24px;
+        height: 24px;
+    }
+}
+.aktive2{
+    color: white;
+}
+.aktive{
+    color: #B3B3B3;
+}

@@ -1,0 +1,29 @@
+.header_search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 20px;
+    max-width: 220px;
+    label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+
+        padding: 4px 8px;
+        outline: none;
+        border: none;
+    }
+}
+@media (max-width:650px) {
+    .header_search{
+        max-width: 100%;
+        input{
+            width: 100%;
+        }
+    }
+    
+}

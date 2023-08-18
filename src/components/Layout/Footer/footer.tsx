@@ -1,9 +1,14 @@
-import style from "./sass/style.module.scss"
+// -------------------------------------------------------------------------------
+
+import style from "@/components/Layout/Footer/sass/style.module.scss"
+import clsx from "clsx"
+
+// -------------------------------------------------------------------------------
 
 function Footer() {
     return(
-        <div className={style.footer}>
-            navbar
+        <div className={clsx(style.footer)}>
+            footer
         </div>
     )
 }

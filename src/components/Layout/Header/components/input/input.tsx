@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 // ---------------------------------------------------
 
-import inputstyle from "@/components/Layout/Header/sass/input.module.scss";
+import inputstyle from "@/components/Layout/Header/components/input/input.module.scss";
 
 // ---------------------------------------------------
 

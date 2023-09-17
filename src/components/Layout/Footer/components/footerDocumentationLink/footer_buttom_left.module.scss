@@ -1,0 +1,14 @@
+.footer_buttom_left{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    &_ul{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    }
+}

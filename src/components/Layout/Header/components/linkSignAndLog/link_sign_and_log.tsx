@@ -3,7 +3,7 @@ import clsx from "clsx";
 
 // ---------------------------------------------------
 
-import inputstyle from "@/components/Layout/Header/sass/link_sign_and_log.module.scss";
+import inputstyle from "@/components/Layout/Header/components/linkSignAndLog/link_sign_and_log.module.scss";
 
 // ---------------------------------------------------
 

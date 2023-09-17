@@ -35,7 +35,7 @@ function Header(props: HeaderProps) {
   // ---------------------------------------------------
 
   const SidebarFunction = () => {
-    setDropMenu(dropMenu ? false : true);
+    setDropMenu(!dropMenu);
   };
 
   function isActive(path: string): boolean {
@@ -45,7 +45,7 @@ function Header(props: HeaderProps) {
   // ---------------------------------------------------
 
   return (
-    <div className={ clsx(isScroll ? [style.header_2] : [style.header])}>
+    <div className={clsx(isScroll ? [style.header_2] : [style.header])}>
       <div className={clsx(style.header_left_components)}>
         <button onClick={() => SidebarFunction()} className={style.buttonMenu}>
           <FaBars />

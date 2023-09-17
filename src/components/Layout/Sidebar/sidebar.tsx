@@ -7,6 +7,7 @@ import style from "@/components/Layout/Sidebar/sass/style.module.scss";
 import routesData from "@/components/Layout/Sidebar/routesData";
 import Logo from "@/components/Layout/Sidebar/components/logo";
 import Links from "@/components/Layout/Sidebar/components/link";
+// import React from "react";
 
 // -------------------------------------------------------------------------------
 
@@ -30,20 +31,11 @@ function Sidebar() {
             {e?.map((j, ji) => {
               return (
                 <Links
+                  key={ji}
                   url={j.url}
-                  id={ji}
-                  img={
-                    <img src={isActive(j.url) ? j.icon2 : j.icon} alt="icon" />
-                  }
-                  urlText={
-                    <p
-                      className={clsx(
-                        isActive(j.url) ? [style.aktive2] : [style.aktive]
-                      )}
-                    >
-                      {j.name}
-                    </p>
-                  }
+                  img={isActive(j.url) ? j.icon2 : j.icon}
+                  name={j.name}
+                  styles={isActive(j.url) ? "aktive2" : "aktive"}
                 />
               );
             })}

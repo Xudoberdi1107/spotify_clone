@@ -15,7 +15,7 @@
     }
     .link1{
         color: white;
-        &:hover{
+        &:active{
             border: 1px solid white;
         }
     }
@@ -23,7 +23,7 @@
         color: black;
         border: 1px solid white;
         background-color: white;
-        &:hover{
+        &:active{
             border: 1px solid white;
             background-color: transparent;
             color: white;

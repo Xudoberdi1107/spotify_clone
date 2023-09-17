@@ -1,4 +1,4 @@
-export type LinkProps = {
+export type Link_props_type = {
   id: number;
   icon: string;
   icon2?: string;
@@ -6,20 +6,20 @@ export type LinkProps = {
   url: string;
 }[];
 
-export type LogoProps = {
+export type Logo_props_type = {
   id: number;
   icon: string;
   url: string;
 };
 
-export type data_link_type = {
-  logo_data: LogoProps[];
-  link_data: LinkProps[];
+export type Data_link_type = {
+  logo_data: Logo_props_type[];
+  link_data: Link_props_type[];
 };
 
 // -------------------------------------------------------------------------------
 
-const routesData: data_link_type = {
+const routesData: Data_link_type = {
   logo_data: [
     {
       id: 0,

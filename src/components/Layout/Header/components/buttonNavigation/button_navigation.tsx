@@ -1,18 +1,14 @@
-import { FaAngleLeft, FaAngleRight, FaSearch } from "react-icons/fa";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import clsx from "clsx";
 
 // -------------------------------------------------------------------------------
 
-import buttomstyle from "@/components/Layout/Header/sass/button_navigatio.module.scss";
+import buttomstyle from "@/components/Layout/Header/components/buttonNavigation/button_navigatio.module.scss";
 
 // -------------------------------------------------------------------------------
 
-type ButtonPropstType = {};
-
-// -------------------------------------------------------------------------------
-
-function ButtonNavigation(props: ButtonPropstType) {
-  const {} = props;
+function ButtonNavigation() {
+  // -------------------------------------------------------------------------------
   return (
     <div className={clsx(buttomstyle.location_buttons)}>
       <button>
